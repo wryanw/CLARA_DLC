@@ -1,0 +1,38 @@
+# Camera reference (enter serial numbers for each)
+frontCam: 18475986
+sideCam: 18475988
+topCam: 18475987
+masterCam: 18475988
+
+# Camera settings
+frontCrop:
+- 115
+- 200
+- 70
+- 200
+sideCrop:
+- 160
+- 200
+- 70
+- 200
+topCrop:
+- 160
+- 200
+- 50
+- 200
+exposure: 150
+framerate: 150
+bin: 4
+ 
+# DLC settings
+config_path: /home/bioelectrics/Documents/RTDLC_SimClust-WRW-2019-09-11/config.yaml
+trainingsetindex: 0
+shuffle: 1
+
+# User information
+unitRef: unit00
+raw_data_dir: /media/nvme/RawDataLocal
+COM: /dev/ttyACM0
+default_video_dir:
+compressed_video_dir: /media/sdb/CompressedDataLocal
+
